@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		document.title = 'Боты на заказ'
+		document.addEventListener("visibilitychange", function(){
+			if (document.hidden){
+				setTimeout(() => { document.title = '😭Вернись💜' }, 1000);
+			} else {
+				document.title = 'Боты на заказ' 
+			}
+		});
+		
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="sty.css">
+	<link rel = icon href = 'img/icon.png'>
+</head>
+<body>
+	<nav class="top-menu">
+	  	<ul class="menu-main">
+		    <li class="left-item"><a href="https://dsc.gg/vfamily">Наш сервер</a></li>
+		    <li class="right-item"><a href="https://vk.com/deb228pro" target="blank">Поддержка</a></li>
+		</ul>
+  		<a class="navbar-logo" href="index.html"><img src="img/icon.png" width="50" height="50"></a>
+	</nav>
+	<div class=photos style="font-size: 35px;">
+		<div class='align1' style="margin:100px;">
+			<img src=img/mute.png style="width:400px;border-radius: 20px;margin:10px;"><img src=img/menu.png style="width:600px;border-radius: 20px;margin:10px;">
+			<p>хелп с разделами | мут с таймером размута</p>
+		</div>
+		<div class="align2" style="text-align: right;">
+			<img src=img/bancode.png style="width:650px;border-radius: 20px;margin:10px;"><img src="img/like.png" style="width:550px;border-radius: 20px;margin:10px;">
+			<p>Простой и понятный код | Система рейтенга</p>
+		</div>
+		<div class="align3" style="text-align:center;">
+			<img src=img/эконом.png style="width:500px;border-radius: 20px;margin:10px;">
+			<p>Система экономики</p>
+			<p><a class="sq-btn btn-one" href='https://vk.com/vdiscord' style="margin:50px">Заказать бота</a></p>
+		</div>
+	</div>
+	<style>
+					.sq-btn {
+					   display: inline-block;
+					   position: relative;
+					   min-width: 178px;
+					   margin: 6px 28px;
+					   padding: 15px 40px;
+					   font-weight: 800;
+					   font-family: sans-serif;
+					   font-size: 14px;
+					   text-transform: uppercase;
+					   letter-spacing: 1px;
+					   color: #00FF55;
+					   transition: .15s ease-out;
+					   box-sizing: border-box;
+					   text-decoration: none;
+					   box-shadow: 0 0 30px;
+					}
+					.btn-one {
+					   color: #00FF55;
+					}
+					.sq-btn:last-of-type {
+					   margin: 6px 28px;
+					}
+					.sq-btn:before {
+					   content: "";
+					   position: absolute;
+					   top: -6px;
+					   left: 0;
+					   height: calc(100% + 12px);
+					   width: 100%;
+					   border: 2px solid #00FF55;
+					   box-sizing: border-box;
+					   transition: .2s ease-in-out;
+					}
+					.btn-one:before {
+					   border: 2px solid #00FF55;
+					}
+					.sq-btn:after {
+					   content: "";
+					   position: absolute;
+					   top: 0;
+					   left: -8px;
+					   height: 100%;
+					   width: calc(100% + 16px);
+					   border: 1px solid #00FF55;
+					   box-sizing: border-box;
+					   transition: .2s ease-in-out;
+					}
+					.btn-one:after {
+					   border: 1px solid #00FF55;
+					}
+					.sq-btn:hover:before {
+					   top: 0;
+					   left: -8px;
+					   height: 100%;
+					   width: calc(100% + 16px);
+					}
+					.sq-btn:hover:after {
+					   top: -6px;
+					   left: 0;
+					   height: calc(100% + 12px);
+					   width: 100%;
+					}
+	</style>
+</body>
+</html>

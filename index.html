@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		document.addEventListener("visibilitychange", function(){
+			if (document.hidden){
+				setTimeout(() => { document.title = '😭Вернись💜' }, 1000);
+			} else {
+				document.title = 'Боты на заказ' 
+			}
+		});
+		$(window).resize(function(){
+		    var text = $(".ban"),
+		        currentWidth = parseInt(text.css("width")),
+		        newWidth = 28;
+
+		    if(currentWidth==700) newWidth = 28;
+		        else if (currentWidth<700 && currentWidth>=600) newWidth = 25;
+		        else if (currentWidth<600 && currentWidth>=500) newWidth = 21;
+		        else if (currentWidth<500 && currentWidth>=300) newWidth = 16;
+
+		    text.css("font-size",newWidth+"px");
+		});
+
+	</script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="sty.css">
+	<title>Боты на заказ</title>
+	<link rel = icon href = 'img/icon.png'>
+</head>
+<body>
+	<nav class="top-menu">
+	  	<ul class="menu-main">
+	    <li class="left-item"><a href="https://dsc.gg/vfamily" target="_blank">Наш сервер</a></li>
+	    <li class="right-item"><a href="https://vk.com/deb228pro" target="_blank">Поддержка</a></li>
+		</ul>
+  		<a class="navbar-logo" href="index.html"><img src="img/icon.png" width="50" height="50"></a>
+	</nav>
+	<div class = 'bg'>
+		<div class = backg>
+			<p style="text-align: center;text-shadow: 0 0 30px;box-shadow: #080808;">Более года опыта с базой данных mongoDB и Discord API</p>
+			<p> </p>
+			<h6><p style="text-align: center;text-shadow: 0 0 30px;box-shadow: #080808; margin: 20px;"> Можем сделать полноценного бота с кучей функциями, какими захотите</p></h6>
+		</div>
+		
+		<div class=ban style="margin: 200px;">
+			<a class="sq-btn btn-one" href='https://vk.com/vdiscord'>Заказать бота</a><a class="sq-btn btn-one" href="primer.html">Смотреть Примеры</a>
+			<p style="text-align: center;text-shadow: 0 0 30px;box-shadow: #080808; margin: 20px;"><h6> У вас есть желание? А нужно больше? Сделаем!</h6></p>
+			<style>
+					.sq-btn {
+					   display: inline-block;
+					   position: relative;
+					   min-width: 178px;
+					   margin: 6px 28px;
+					   padding: 15px 40px;
+					   font-weight: 800;
+					   font-family: sans-serif;
+					   font-size: 14px;
+					   text-transform: uppercase;
+					   letter-spacing: 1px;
+					   color: #00FF55;
+					   transition: .15s ease-out;
+					   box-sizing: border-box;
+					   text-decoration: none;
+					   box-shadow: 0 0 30px;
+					}
+					.btn-one {
+					   color: #00FF55;
+					}
+					.sq-btn:last-of-type {
+					   margin: 6px 28px;
+					}
+					.sq-btn:before {
+					   content: "";
+					   position: absolute;
+					   top: -6px;
+					   left: 0;
+					   height: calc(100% + 12px);
+					   width: 100%;
+					   border: 2px solid #00FF55;
+					   box-sizing: border-box;
+					   transition: .2s ease-in-out;
+					}
+					.btn-one:before {
+					   border: 2px solid #00FF55;
+					}
+					.sq-btn:after {
+					   content: "";
+					   position: absolute;
+					   top: 0;
+					   left: -8px;
+					   height: 100%;
+					   width: calc(100% + 16px);
+					   border: 1px solid #00FF55;
+					   box-sizing: border-box;
+					   transition: .2s ease-in-out;
+					}
+					.btn-one:after {
+					   border: 1px solid #00FF55;
+					}
+					.sq-btn:hover:before {
+					   top: 0;
+					   left: -8px;
+					   height: 100%;
+					   width: calc(100% + 16px);
+					}
+					.sq-btn:hover:after {
+					   top: -6px;
+					   left: 0;
+					   height: calc(100% + 12px);
+					   width: 100%;
+					}
+			</style>
+		</div>
+	</div>
+	<p class = href><a href=https://github.com/SmIrOn123/site target="_blank">исходный код сайта</a></p>
+</body>
+</html>
